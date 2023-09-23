@@ -1,0 +1,549 @@
+
+  /* Navabar css */
+  .nav{
+    /* width: 1920px; */
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.nav-logo{
+    width: 170px;
+    height: 38px; 
+    margin-left: 200px;
+    margin-top: 31px;
+}
+.nav_link{
+    font-size: 16px;
+    display: flex;
+    margin-top: 38px;
+    gap: 42px;
+    /* justify-content: center; */
+}
+.nav_link a{
+    text-decoration: none;
+}
+.nav-logo2{
+    margin-top: 38px;
+    margin-right: 200px;
+}
+.nav-img{
+    padding: 0 10px;
+}
+.nav_link a:hover{
+    text-decoration: underline;
+}   
+
+@media screen and (max-width: 1200px){
+  .nav-logo{
+    margin-left: 0;
+  }
+  .nav-logo2{
+    margin-right: 0;
+  }
+
+}
+@media screen and (max-width: 764px){
+
+  .nav_link{
+    gap: 10px;
+  }
+  .home1-img {
+    height: 400px;
+}
+}
+@media screen and (max-width: 628px){
+
+  .nav-logo{
+    display: none;
+  }
+}
+
+
+                                          /* home1 css */
+.home1-img{
+    height: 815px;
+    width: 100%;
+}
+
+                                          /* home2 css */
+.home2 {
+    margin-bottom: 50px;
+}
+.home2_main{
+    display: flex;
+}
+.home2_card{
+    display: flex;
+    gap: 10px;
+    margin: 0 70px;
+}
+.home2_head{
+    display: flex;
+    justify-content: center;
+    
+}
+.home2_head h3{
+    height: 48px;
+    font-size: 40px;
+    line-height: 48px;
+    font-weight: 400;
+}
+.home2_del h3{
+    font-size: 22px;
+    line-height: 26.4px;
+    font-weight: 600;
+}
+.home2_del p{
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+}
+.home2_data {
+    padding-top: 20px;
+}
+.home2 {
+    margin-bottom: 50px;
+}
+
+                                      /* home3 css */
+
+.home3_img{
+    position: absolute;
+    z-index: -1;
+    height: 630px;
+    width: 100%;
+} 
+.home3_txt{
+    padding-top: 104px;
+    margin-left: 150px;
+    width: 41%;
+}
+.home3_txt h2{
+    font-size: 48px;
+    line-height: 40px;
+    font-weight: 400;
+}
+.home3_txt p{
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+}
+.home3 {
+    height: 630px;
+}
+.btn{
+    background: black;
+    color: white;
+    font-weight: 700;
+    line-height: 27px;
+    font-size: 18px;
+    height: 48px;
+    width: 166px;
+    margin-top: 15px;
+} 
+
+
+                                          /* service css */
+
+.service{
+    display: flex;
+    justify-content: center;
+    list-style-type: circle;
+    gap: 40px;
+    padding-bottom: 20px;
+}
+.service a{
+    text-decoration: none;
+    font-size: 25px;
+    line-height: 48px;
+    font-weight: 400px;
+} 
+.service a:hover{
+    text-decoration: underline;
+}                    
+
+                                    /* cards css */
+
+
+.card{
+  gap: 20px;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+.Card_head{
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 48px;
+    text-align: center;
+}
+.card_txt {
+    text-align: center;
+}
+.card_txt h3{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+.card_txt span {
+    text-decoration: line-through;
+    color: red;
+}                             
+
+.card_main{
+  width: 30%;
+}
+.card_img , .card_txt{
+  width: 100%;
+}
+.img2{
+  width: 100%;
+}
+
+                          /* Ads css */
+
+.adssection {
+    padding-top: 10px;
+    background: #E6F0F2;
+    align-content: center;
+    margin-bottom: 20px; /* Adjust the value as per your preference */
+}
+
+.photos{
+    margin-top: 50px;
+    display: flex;
+    width: 140px;
+    height: 40px;
+    margin-left: 80px;
+    margin-right: 100px;
+    justify-content: space-between;
+}
+
+.photos img {
+    margin: 0 75px; 
+}
+
+.text{
+    text-align: center;
+    font-size: 28px;
+    font-weight: 500;
+}
+  
+@media screen and (min-width: 768px){
+    .photos {
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+
+    .text {
+        font-size: 36px;
+    }
+    
+    .photos img {
+        max-width: none;
+    }
+    /* .nav{
+            flex-direction: column; 
+            align-items: center; 
+            height: auto;
+    }
+    .nav-logo{
+        margin-left: 0; 
+        margin-top: 31px;
+    }
+    .nav_link{
+        margin-top: 38px;
+        gap: 42px;
+    }
+    .nav-logo2{
+        margin-top: 38px;
+        margin-right: 200px;
+    } */
+} 
+
+/*  Home4 css*/
+
+.home4{
+  height: 620px;
+  width: 100%;
+}
+.home4_img{
+  position: absolute;
+  width: 100%;
+  z-index: -1;
+  
+}
+.home4_txt{
+  margin-left: 182px;
+  font-size: 16px;
+  line-height: 24px;
+  padding-top: 191px;
+  width: 55%;
+}
+.bold{
+  font-weight: 500;
+  
+}
+
+.info_main{
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  width: 100%;
+}
+.info_img{
+  width: 30%;
+}
+.img3{
+  width: 100%;
+}
+.info_txt{
+  text-align: center;
+  font-size: 40px;
+  line-height: 48px;
+  font-weight: 400;
+}
+
+
+
+
+
+
+  .footer{
+    background: black;
+    color: #ffff;
+    border-top: 2px solid red;
+}
+
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    padding: 5rem 10rem;
+}
+
+.footer-container .logo{
+    color: #ffff;
+    margin-bottom:  1rem;
+}
+
+.footer-container .footer-box{
+    display: flex;
+    flex-direction: column;
+    /* margin-left: 100px;
+    margin-right: 100px; */
+}
+
+.social{
+      display: flex;
+      align-items: center;
+
+}
+
+.social a {
+    font-size: 24px;
+    color: #ffff;
+    margin-right: 1rem;
+}
+
+.social a:hover{
+    color: red;
+}
+
+
+
+.footer-box h3{
+    font-size: 1.1rem;
+    font-weight: bold;
+    margin-bottom: 1rem; 
+  
+}
+
+.footer-box a, .footer-box p {
+    color:#ffff;
+    margin-bottom: 10px;
+      text-decoration: none;
+}
+
+.footer-box a:hover{
+  color:#ffff;
+}
+
+.search-text {
+    margin-top: 50px;
+    /* background-color: #7dabdb; */
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+    
+.footer-box .input-search {
+    height: 45px;
+    width: 300px;
+    padding-left: 20px;
+    color: #333;
+
+} 
+
+.footer-box .btn-search {
+    background-color: #7dabdb;
+    border: 1px solid #7dabdb;
+    color :#FFF;
+    padding: 11px 22px;
+    width: 150px;
+
+
+}
+
+.search-text.btn-search:hover {
+    background-color: #FFF;
+    color: #7dabdb;
+}
+
+
+
+@media screen and (max-width: 1200px){
+  .nav-logo{
+    margin-left: 0;
+  }
+  .nav-logo2{
+    margin-right: 0;
+  }
+  .home3_txt {
+    margin-left: 25px;
+  }
+  .bold2{
+    display: none;
+  }
+  .home4_txt {
+    margin-left: 25px;
+    width: 65%;
+    padding-top: 67px;
+  }
+  .photos {
+    width: 100%;
+    margin-left: 0px;
+    padding-left: 10px;
+  }
+  .photos img {
+    margin: 0 0px;
+  }
+  .footer-container {
+    padding: 0 26px;
+  }
+  .home4_img {
+    height: 41%;
+  }
+}
+@media screen and (max-width: 764px){
+
+  .nav_link{
+    gap: 10px;
+  }
+  .home1-img {
+    height: 400px;
+}
+.home2_head h3 {
+  font-size: 20px;
+}
+.home2_card {
+  margin: 0 0;
+}
+.home3_txt {
+  padding-top: 5px;
+}
+.home3_img {
+  height: 530px;
+}
+.home4_img {
+  height: 30%;
+}
+.home4_txt{
+  font-size: 12px;
+  padding-top: 67px;
+  
+}
+.bold {
+  height: 91px;
+
+  overflow-x: scroll;
+}
+.home4 {
+  height: 450px;
+}
+.footer-container .footer-box {
+  width: 50%;
+}
+.footer-container {
+  display: block;
+}
+}
+@media screen and (max-width: 628px){
+
+  .nav-logo{
+    display: none;
+  }
+  .home3_img {
+    height: 400px;
+  }
+  .home2_main {
+    display: block;
+  }
+  .home3_txt p {
+    display: none;
+  }
+  .service {
+    display:grid;
+    gap: 0;
+  }
+  .btn{
+    font-size: 12px;
+    height: 36px;
+    width: 100px;
+  }
+  .Card_head {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 577px){
+.card_main {
+  width: 90%;
+}
+.card {
+  display: block;
+}
+.info_txt{
+  font-size: 25px;
+}
+.photos img {
+  width: 15%;
+}
+.text{
+  font-size: 18px;
+}
+.home3_txt h2 {
+  font-size: 25px;
+}
+}
+
+
+@media screen and (max-width: 340px){
+/* .bold {
+  height: 91px;
+
+  overflow-x: scroll;
+}
+.home4_txt {
+  padding-top: 54px;
+} */
+
+}
+@media screen and (min-width: 1800px){
+  .home4_txt{
+    padding-top: 269px;
+  }
+}
+                              /*Blog css*/
+
+                              
